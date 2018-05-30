@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by snowwolf-louis on 17/11/18.
+ * Created by snowwolf-louis on 17/11/18.1
  */
 public class ConfigTypeConstant {
     public static final Short PROPERTY_TYPE = 1;
