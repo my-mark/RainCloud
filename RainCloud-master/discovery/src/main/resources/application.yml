@@ -11,4 +11,4 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 spring:
   application:
-    name: service-discovery
+    name: eureka-server
