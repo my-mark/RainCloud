@@ -16,10 +16,10 @@ public class ConfigClientApplication {
 	}
 
 
-	@Value("${user.name}")
-	String foo;
+	@Value("${foo}")
+	String value;
 	@RequestMapping(value = "/hi",method = RequestMethod.GET)
 	public String hi() {
-		return foo;
+		return value;
 	}
 }

@@ -17,7 +17,7 @@ spring:
         label: master
         server:
           git:
-            uri: https://github.com/my-mark/
-            search-paths: RainCloud
+            uri: https://github.com/forezp/SpringcloudConfig/
+            search-paths: respo
             username:
             password:
