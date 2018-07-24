@@ -1,0 +1,14 @@
+
+#服务发现注册配置
+server:
+  port: 8889
+
+spring:
+    application:
+        name: config-client
+    #配置中心相关配置
+    cloud:
+      config:
+        label: master
+        profile: dev
+        uri: http://localhost:8888/
