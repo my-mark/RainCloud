@@ -5,12 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-/**
- * Email miles02@163.com
- *
- * @author fangzhipeng
- * create 2018-07-09
- **/
 @FeignClient(value = "service-hello")
 public interface HelloService {
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
